@@ -5,7 +5,7 @@ import formatElapsedTime from './formatElapsedTime';
 
 class App extends Component {
   render() {
-    let result = formatElapsedTime(1000000000);
+    let result = formatElapsedTime(100000000);
 
     return (
       <div className="App">
